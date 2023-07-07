@@ -1,4 +1,4 @@
-![image](https://github.com/ghostrunner0/CLASS-12-LAB-WORKS/assets/138878654/5aeff1a4-3737-4f90-a2f8-6f65cf275f01)# 😁 CLASS 12 LAB WORKS
+# 😁 CLASS 12 LAB WORKS
 
 # ✋ NOTICE & RULES
 
@@ -15,8 +15,9 @@
 - Now if you all want to run the code then you may click on the use this template option & open a new codespace -
 - After that VS CODE will open from which you will be able to open and run the file. -
 - To run the file u must run the following codes:- -
-- 1)cd
-- 2)cd /workspaces/CLASS-12-LAB-WORKS/[Folder name]/
-- 3)gcc [file name]
-- 4)./a.out
+  1)cd
+  2)cd /workspaces/CLASS-12-LAB-WORKS/[Folder name]/
+  3)gcc [file name]
+  4)./a.out
+
 
