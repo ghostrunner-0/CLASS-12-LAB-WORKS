@@ -22,4 +22,4 @@ To run the file u must run the following codes:-
  -  3)gcc [file name]
  -  4)./a.out
 
-
+![image](https://github.com/ghostrunner0/CLASS-12-LAB-WORKS/assets/138878654/1d0d8735-373d-40e0-bac2-57edafdd4dee)
