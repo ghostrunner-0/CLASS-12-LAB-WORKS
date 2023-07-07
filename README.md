@@ -12,9 +12,9 @@
  
 # HOW TO RUN CODES IF REQUIRED
 
-- Now if you all want to run the code then you may click on the use this template option & open a new codespace -
-- After that VS CODE will open from which you will be able to open and run the file. -
-- To run the file u must run the following codes:- 
+Now if you all want to run the code then you may click on the use this template option & open a new codespace-
+After that VS CODE will open from which you will be able to open and run the file.-
+To run the file u must run the following codes:- 
  -  1)cd
  -  2)cd /workspaces/CLASS-12-LAB-WORKS/[Folder name]/
  -  3)gcc [file name]
