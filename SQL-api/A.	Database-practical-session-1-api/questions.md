@@ -1,4 +1,4 @@
-# Lab questions for SQL
+# Lab questions for practical session 1
 
 a)	Create a database named ‘EMPLOYEE’.
 
