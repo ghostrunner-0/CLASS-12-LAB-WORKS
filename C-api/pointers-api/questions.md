@@ -1,4 +1,4 @@
-# Lab questions for [pointer]
+# Lab Questions related to [Pointer]
 
 1.	WAP to perform arithmetic calculations (sum, difference, multiplication and division) of two numbers using pointers.
 
