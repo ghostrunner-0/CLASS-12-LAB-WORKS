@@ -1,4 +1,4 @@
-Lab Questions related to lab work [Struct & Unions]
+# Lab Questions related to lab work [Struct & Unions]
 
 1.	WAP to input id, name and grade for 10 students. Then print them. Use array of structure concept.
 
