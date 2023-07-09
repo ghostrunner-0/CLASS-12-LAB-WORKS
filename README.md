@@ -16,10 +16,10 @@ Now if you all want to run the code then you may click on the use this template 
 
 After that, VS CODE will open from which you will be able to open and run the file.-
 
-To run the file u must run the following codes:- 
- -  1)cd
- -  2)cd /workspaces/CLASS-12-LAB-WORKS/[Folder name]/[folder name is there is ]/
- -  3)gcc [file name]
- -  4)./a.out
+To run the file u may follow the steps below:-
 
-![image](https://github.com/ghostrunner0/CLASS-12-LAB-WORKS/assets/138878654/1d0d8735-373d-40e0-bac2-57edafdd4dee)
+
+First, click run code as shown below 
+![image](https://github.com/ghostrunner0/CLASS-12-LAB-WORKS/assets/138878654/024300d1-8ad7-482b-b2f6-6b4eb706ec3f)
+
+then a command prompt will open from where you will be able to run the code.
