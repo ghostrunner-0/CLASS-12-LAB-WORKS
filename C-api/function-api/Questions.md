@@ -1,5 +1,5 @@
 
-# Lab Questions related to lab work [Function]
+# Lab Questions related to [Function]
 
 1.	WAP to find the sum of two numbers using a function named sum().
 2.	WAP to know if a number is even or odd using a function named evenodd().
