@@ -1,26 +1,27 @@
 // 6.	WAP to input elements of an array and print them with their sum. Suppose, the array is one dimensional and is 
 // of void type and  function to be used is array_elements().
-#include<stdio.h>
-void array_elements(int b[100]);
-int size;
+#include <stdio.h>
+void array_elements(int[], int);
 int main()
 {
-    int a[100];
-    int i;
-    printf("Enter size of array\n");
-    scanf("%d",&size);
-    for(i=0;i<size;i++)
+    int n, i, arr[100];
+    printf("Enter the size of the array: ");
+    scanf(" %d ", &n);
+    printf("Enter the elements of the array: ");
+    for (i = 0; i < n; i++)
+        scanf(" %d ", &arr[i]);
+    array_elements(arr, n);
+    return 0;
+}
+void array_elements(int arr[], int n)
+{
+    int sum = 0;
+    printf("The elements of the array are: ");
+    for (int i = 0; i < n; i++)
     {
-        printf("Enter [%d] element\n",i+1);
-        scanf("%d",&a[i]);
+        printf(" %d ", arr[i]);
+        sum = sum + arr[i];
     }
-    array_elements(a);
+    printf("The sum of the elements of the array is: %d ", sum);
 }
 
-void array_elements(int b[100]){
-    int s=0;
-    for(int i=0;i<size;i++){
-        s=s+b[i];
-    }
-    printf("The sum of the arrays are:%d\n",s);
-}
