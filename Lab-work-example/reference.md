@@ -1,1 +1,1 @@
-# Thanks to Nijmi Bajracharya for the perfect lab work
+# Thank you [-----] for the lab work
