@@ -21,6 +21,7 @@ int main() {
     for(i=0;i<3;i++){
         for(j=i+1;j<3;j++){
             if(strcmp(data[i].name,data[j].name)>0){
+                temp=data[i];
                 data[i]=data[j];
                 data[j]=temp;
             }
