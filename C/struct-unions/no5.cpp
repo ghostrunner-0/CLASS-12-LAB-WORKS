@@ -8,8 +8,10 @@ struct teach{
     subject sub[100];
 }data[100];
 main(){
+        printf("\n\nNo5");
+    printf("\n\n\tAUthor://GHOSTRUNNER//\n\n");
     int i;
-    for(i=0;i<3;i++){
+    for(i=0;i<2;i++){
         printf("Enter teacher's name\n");
         scanf("%s",data[i].n);
         printf("Enter %s`s id\n",data[i].n);
@@ -17,7 +19,7 @@ main(){
         printf("Enter the subject %s teaches\n",data[i].n);
         scanf("%s",data[i].sub);
     }
-    for(i=0;i<3;i++){
+    for(i=0;i<2;i++){
         printf("ID: %d  Name: %s  Subject: %s\n",data[i].a,data[i].n,data[i].sub);
     }
 }

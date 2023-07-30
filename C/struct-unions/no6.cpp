@@ -8,6 +8,8 @@ struct d
 void calc(struct d s1,struct d s2);
 main()
 {
+        printf("\n\nNo6");
+    printf("\n\n\tAUthor://GHOSTRUNNER//\n\n");
     printf("Enter length in kilometer & meter\n");
     scanf("%d%d",&s1.km,&s1.m);
     printf("Enter another length in kilometer& meter\n");

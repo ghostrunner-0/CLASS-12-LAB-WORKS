@@ -10,6 +10,7 @@ struct employee
 } data[100];
 main()
 {
+    printf("\n\nNo2");
     printf("\n\n\tAUthor://GHOSTRUNNER//\n\n");
     int i;
     char temp[100];

@@ -11,6 +11,8 @@ struct salarydetails{
     struct employee detail;
 }payinfo[100];
 int main(){
+        printf("\n\nNo3");
+    printf("\n\n\tAUthor://GHOSTRUNNER//\n\n");
     int i;
     int size;
     printf("Enter numbers of employees\n");

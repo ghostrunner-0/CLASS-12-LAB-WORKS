@@ -6,8 +6,9 @@ struct std{
     char name[100];
     char address[100];
 }data[100],temp;
-int main()
-{
+int main() {
+    printf("\n\nNo4");
+    printf("\n\n\tAUthor://GHOSTRUNNER//\n\n");
     int i,j;
     for(i=0;i<3;i++){
         printf("Enter Student's name\n");
@@ -18,9 +19,8 @@ int main()
         scanf("%s",data[i].address);
     }
     for(i=0;i<3;i++){
-        for(j=i+1;j<20;j++){
-            if(strcmp(data[i].name,data[j].name)<0){
-                temp=data[i];
+        for(j=i+1;j<3;j++){
+            if(strcmp(data[i].name,data[j].name)>0){
                 data[i]=data[j];
                 data[j]=temp;
             }
