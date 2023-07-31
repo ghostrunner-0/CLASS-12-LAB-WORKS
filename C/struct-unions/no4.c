@@ -16,7 +16,7 @@ int main() {
         printf("Enter %s's id\n",data[i].name);
         scanf("%d",&data[i].id);
         printf("Enter %s's address\n",data[i].name);
-        scanf("%s",data[i].address);
+        scanf("%s",data[i].address); 
     }
     for(i=0;i<3;i++){
         for(j=i+1;j<3;j++){
