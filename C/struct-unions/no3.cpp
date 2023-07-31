@@ -13,7 +13,7 @@ struct salarydetails{
 int main(){
         printf("\n\nNo3");
     printf("\n\n\tAUthor://GHOSTRUNNER//\n\n");
-    int i;
+    int i; 
     int size;
     printf("Enter numbers of employees\n");
     scanf("%d",&size);
