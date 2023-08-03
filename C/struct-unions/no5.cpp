@@ -1,9 +1,9 @@
 // WAP to input any 10 teacher’s id, name and subject using ‘typedef’ and structure. Then print them on screen.
 #include<stdio.h>
-struct teach{
     typedef int id;
-    id a;
     typedef char name, subject;
+struct teach{
+    id a;
     name n[100];
     subject sub[100];
 }data[100];
