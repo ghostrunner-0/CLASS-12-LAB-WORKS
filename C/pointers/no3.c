@@ -8,7 +8,7 @@ int main()
     int *k;
     for(int i=0;i<n;i++){
         printf("Enter %d element\n",i+1);
-        scanf("%d",&a[i]);
+        scanf("%d",(a+i));
     }
     k=a;
     float sum, avg;
