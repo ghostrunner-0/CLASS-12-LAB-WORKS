@@ -18,7 +18,7 @@ int main()
         choice=getch();                                      //? getch scans the entered value.
     }while(choice =='Y'|| choice=='y');
     fclose(k);                                               //?Used for closing the file
-    fopen("text.xls","r");
+    fopen("text.txt","r");
     do{
         printf("Book name= %s\t Price= %d\n",name,price);
     }while((fscanf(k,"%s\t%d\n",name,&price)!=EOF));         //? fscanf reads the data from the file.

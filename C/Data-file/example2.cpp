@@ -6,7 +6,7 @@ int main()
     char name[100];
     int id;
     char choice;
-    k=fopen("test.xls","a");
+    k=fopen("test.txt","a");
     printf("Enter data\n");
     do
     {
@@ -19,7 +19,7 @@ int main()
         choice=getch();
     } while (choice =='y'|| choice=='Y');
     fclose(k);
-    fopen("test.xls","r");
+    fopen("test.txt","r");
     int i=0;
     do{
         printf("ID=%d\tName=%s\n",id,name);
