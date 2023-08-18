@@ -1,3 +1,5 @@
+###### NOTE: Please help the creaters & give to star to the repository.Thank you😊😊 
+
 #😁 CLASS 12 LAB WORKS
 
 #✋ NOTICE & RULES
