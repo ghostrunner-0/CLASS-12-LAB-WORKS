@@ -8,7 +8,7 @@ int main()
     printf("Enter a number\n");
     scanf("%d",&*k);
     (*k%2==0)?
-    printf("They number is even"):
-    printf("They are not equal");    
+    printf("The number is even"):
+    printf("The number is odd");    
 return 0;
 }
