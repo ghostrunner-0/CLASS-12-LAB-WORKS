@@ -9,5 +9,8 @@ int main()
     printf("Enter two number\n");
     scanf("%d%d",&*k,&*j);
     printf("The sum of the numbers is: %d",*k+*j);
+    printf("The difference of the numbers is: %d",*k-*j);
+    printf("The product of the numbers is: %d",*k**j);
+    printf("The division of the numbers is: %d",(*k)/(*j));
 return 0;
 }
