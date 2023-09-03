@@ -10,3 +10,9 @@ Then read contents of data file and print them on screen. Use fscanf() function.
 4. WAP to store book’s name, edition and price in a data file “book.txt” using yes/no options. It means the computer stores data until you say ‘n’. Then print them on screen.
 
 5. WAP to store employee’s name, designation and salary in a data file “employee.txt” using fwrite(). The computer stores data until you say ‘n’. Then read the contents of that file and print on screen using fread().
+
+6. WAP to input students' name, grade and marks in five subjects. Then store these all data with total and percentage in a data file "student.dat". Print all those data of students who have percentage >=80. You may use fprintf() or fwrite().
+
+7. WAP to show the concept of rename() and remove() functions.
+
+8. WAP to show concept of ftell(), fseek() and rewind() functions.
