@@ -9,13 +9,7 @@ struct student
 {
     c name[100];
     i grade;
-    f sub1;
-    f sub2;
-    f sub3;
-    f sub4;
-    f sub5;
-    f sum;
-    f per;
+    f sub1,sub2,sub3,sub4,sub5,sum,per;
 } s;
 int main()
 {
@@ -27,29 +21,21 @@ int main()
         scanf("%s",s.name);
         printf("Grade: ");
         scanf("%d",&s.grade);
-        printf("Subject 1 : ");
-        scanf("%f",&s.sub1);
-        printf("Subject 2 : ");
-        scanf("%f",&s.sub2);
-        printf("Subject 3 : ");
-        scanf("%f",&s.sub3);
-        printf("Subject 4 : ");
-        scanf("%f",&s.sub4);
-        printf("Subject 5 : ");
-        scanf("%f",&s.sub5);
+        printf("Enter Marks in 5 subjects: ");
+        scanf("%f%f%f%f%f",&s.sub1,&s.sub2,&s.sub3,&s.sub4,&s.sub5);
         s.sum=s.sub1+s.sub2+s.sub3+s.sub4+s.sub5;
         s.per=s.sum/5;
         fwrite(&s,sizeof(s),1,k);
     }
     fclose(k);
     k=fopen("student.dat","r");
-    printf("The student/s with percentage equal to or more than 80:\n");
+    printf("The students with percentage equal to or more than 80:\n");
     while ((fread(&s,sizeof(s),1,k))!=EOF)
     {
         if(s.per>=80){
             printf("name: ");
             printf("%s ",s.name );
-            printf("grade:%d \t percentage:%f\n",s.grade ,s.per);
+            printf("grade:%d \t percentage:%f%\n",s.grade ,s.per);
         }
     }
     return 0;

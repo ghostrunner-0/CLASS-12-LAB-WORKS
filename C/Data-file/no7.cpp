@@ -8,12 +8,11 @@ int main()
     f *k, *k1;
     c name[100], choice;
     i roll, searchid, flag = 0;
-    float per;
     k = fopen("student.txt", "a");
     printf("Enter ctrl+z to exit");
-    while ((scanf("%d%s%f", &roll, name, &per)) != EOF)
+    while ((scanf("%d%s", &roll, name)) != EOF)
     {
-        fprintf(k, "%d\t%s\t%f\n", roll, name, per);
+        fprintf(k, "%d\t%s\t\n", roll, name);
     }
     printf("\nwriting process completed\n");
     fclose(k);
@@ -21,23 +20,21 @@ int main()
     k1 = fopen("updatedata.txt", "w");
     printf("Enter student rollno to be updated\n");
     scanf("%d", &searchid);
-    while ((fscanf(k, "%d%s%f", &roll, name, &per)) != EOF)
+    while ((fscanf(k, "%d%s", &roll, name)) != EOF)
     {
         if (searchid == roll)
         {
             flag = 1;
-            printf("name=%s\t per=%f\n", name, per);
+            printf("name=%s\t per=%f\n", name);
             printf("enter rollno\n");
             scanf("%d", &roll);
             printf("Enter name");
             scanf("%s", name);
-            printf("enter percentage\n");
-            scanf("%f", &per);
-            fprintf(k1, "%d\t%s\t%f\n", roll, name, per);
+            fprintf(k1, "%d\t%s\n", roll, name);
         }
         else
         {
-            fprintf(k1, "%d\t%s\t%f\n", roll, name, per);
+            fprintf(k1, "%d\t%s\n", roll, name);
         }
     }
     fclose(k);

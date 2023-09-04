@@ -20,7 +20,7 @@ int main()
         printf("Enter price\n");
         scanf("%d",&price);
         fprintf(k,"%s\t%d\t%d\n",name,edition,price);
-        printf("Enter 'y to continue & 'n' to exit\n");
+        printf("Enter 'y' to continue & 'n' to exit\n");
         choice=getch();
     }
     fclose(k);

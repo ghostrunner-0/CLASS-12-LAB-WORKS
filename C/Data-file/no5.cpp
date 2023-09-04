@@ -10,7 +10,7 @@ struct employee
     c name[100];
     c designation[100];
     i salary; //? Fun Fact: The daa type integar takes 4 bytes memory space;
-} data;
+}data;
 int main()
 {
     f *k;
