@@ -21,7 +21,7 @@ int main()
 {
     FILE *k;
     k=fopen("student.dat","a");
-    for(int i=0;i<2;i++){
+    for(int i=0;i<5;i++){
         printf("\nEnter the details of %d Student \n",i+1);
         printf("Name:");
         scanf("%s",s.name);
