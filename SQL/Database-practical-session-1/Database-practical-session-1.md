@@ -19,4 +19,4 @@
 
 8.Show databases;
 
-To exit mysql then click ctrl+C.
+## To exit mysql then click ctrl+C.
