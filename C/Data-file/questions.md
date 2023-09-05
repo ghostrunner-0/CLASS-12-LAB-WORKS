@@ -1,4 +1,4 @@
-Lab questions related to Data file
+# Lab questions related to Data file
 
 1. WAP to input a sentence and store data in a data file “file.txt”. And print them on screen. Use getc() and putc() functions.
 
