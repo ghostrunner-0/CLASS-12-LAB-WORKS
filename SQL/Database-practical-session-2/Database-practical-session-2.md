@@ -2,55 +2,55 @@
 
 # ! Question number j,l,k,m not done.
 
-create database student;
+1.create database student;
 
-use student;
+2.use student;
 
-create table student(
+3.create table student(
 
-Student_id int not null primary key auto_increment,
+  Student_id int not null primary key auto_increment,
 
-Student_name varchar(100),
+  Student_name varchar(100),
 
-Student_address varchar(100),
+  Student_address varchar(100),
 
-Student_grade int
+  Student_grade int
 
-);
+  );
 
-show tables;
+4.show tables;
 
-describe student;
+5.describe student;
 
-insert into student (student_name,student_address,student_grade)
+6.insert into student (student_name,student_address,student_grade)
 
-values('Priyanshu','Teku',12),
+  values('Priyanshu','Teku',12),
 
-('Anam','Bhaktapur',12),
+  ('Anam','Bhaktapur',12),
 
-('Hari','Amannagar',12),
+  ('Hari','Amannagar',12),
 
-('Sita','Dilibazar',11),
+  ('Sita','Dilibazar',11),
 
-('Yam','America',11),
+  ('Yam','America',11),
 
-('Jerry','America',11)
+  ('Jerry','America',11)
 
-;
+  ;
 
-select * from student;
+7.select * from student;
 
-select student_id,student_name from student;
+8.select student_id,student_name from student;
 
-select * from student where student_name like 'a%';
+9.select * from student where student_name like 'a%';
 
-select * from student where student_name like '%y';
+10.select * from student where student_name like '%y';
 
-select * from student where student_grade=12;
+11.select * from student where student_grade=12;
 
-select * from student
-where student_grade=12 and student_address='Kathmandu';
+12.select * from student
+   where student_grade=12 and student_address='Kathmandu';
 
-select * from student order by student_name asc;
+13.select * from student order by student_name asc;
 
-select * from student order by student_name desc;
+14.select * from student order by student_name desc;
