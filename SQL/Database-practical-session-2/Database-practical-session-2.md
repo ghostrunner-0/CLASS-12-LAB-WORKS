@@ -7,10 +7,15 @@ create database student;
 use student;
 
 create table student(
+
 Student_id int not null primary key auto_increment,
+
 Student_name varchar(100),
+
 Student_address varchar(100),
+
 Student_grade int
+
 );
 
 show tables;
@@ -18,12 +23,19 @@ show tables;
 describe student;
 
 insert into student (student_name,student_address,student_grade)
+
 values('Priyanshu','Teku',12),
+
 ('Anam','Bhaktapur',12),
+
 ('Hari','Amannagar',12),
+
 ('Sita','Dilibazar',11),
+
 ('Yam','America',11),
+
 ('Jerry','America',11)
+
 ;
 
 select * from student;
