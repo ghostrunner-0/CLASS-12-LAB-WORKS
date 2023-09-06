@@ -7,8 +7,11 @@
 3.use  EMPLOYEE;
 
 4.create table employee(
+  
   Employee_id int primary key not null auto_increment,
+  
   Employee_name varchar(100)
+  
   );
 
 5.Drop table employee;
