@@ -2,19 +2,19 @@
 
 # ! Question number j,l,k,m not done.
 
-show databases;
+1.show databases;
 
-drop database student;
+2.drop database student;
 
-show databases;
+3.show databases;
 
-create database student;
+4.create database student;
 
-show databases;
+5.show databases;
 
-use student;
+6.use student;
 
-create table student(
+7.create table student(
 
 Student_id int not null primary key auto_increment,
 
@@ -26,9 +26,9 @@ Student_grade int
 
 );
 
-desc student;
+8.desc student;
 
-insert into student (student_name,student_address,student_grade)
+9.insert into student (student_name,student_address,student_grade)
 
 values('Priyanshu','Teku',12),
 
@@ -43,24 +43,24 @@ values('Priyanshu','Teku',12),
 ('Jerry','America',11)
 
 ;
-select student_id, student_name from student;
+10.select student_id, student_name from student;
 
-select * from student where student_name like "a%";
+11.select * from student where student_name like "a%";
 
-select * from student where student_name like "%y";
+12.select * from student where student_name like "%y";
 
-select * from student where student_grade=12;
+13.select * from student where student_grade=12;
 
-select * from student where student_grade=12 and student_address like "kathmandu";
+14.select * from student where student_grade=12 and student_address like "kathmandu";
 
-select * from student order by student_name asc;
+15.select * from student order by student_name asc;
 
-select * from student order by student_name desc;
+16.select * from student order by student_name desc;
 
-alter table student
+17.alter table student
 
 add column student_section varchar(100),
 
 modify column student_address varchar(200);
 
-desc student;
+18.desc student;
