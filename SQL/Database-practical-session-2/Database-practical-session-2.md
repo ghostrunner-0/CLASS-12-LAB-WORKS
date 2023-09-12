@@ -43,6 +43,7 @@ values('Priyanshu','Teku',12),
 ('Jerry','America',11)
 
 ;
+
 10.select student_id, student_name from student;
 
 11.select * from student where student_name like "a%";
