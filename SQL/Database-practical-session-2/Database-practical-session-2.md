@@ -1,6 +1,10 @@
 # The following codes are to be executed for the practical session-2
 
+<<<<<<< Updated upstream
 # ! Question number j,l,k not done.
+=======
+! Question number j,l,k,m not done.
+>>>>>>> Stashed changes
 
 1.show databases;
 
