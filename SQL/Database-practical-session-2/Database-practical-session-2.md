@@ -2,55 +2,65 @@
 
 # ! Question number j,l,k,m not done.
 
-1.create database student;
+show databases;
 
-2.use student;
+drop database student;
 
-3.create table student(
+show databases;
 
-  Student_id int not null primary key auto_increment,
+create database student;
 
-  Student_name varchar(100),
+show databases;
 
-  Student_address varchar(100),
+use student;
 
-  Student_grade int
+create table student(
 
-  );
+Student_id int not null primary key auto_increment,
 
-4.show tables;
+Student_name varchar(100),
 
-5.describe student;
+Student_address varchar(100),
 
-6.insert into student (student_name,student_address,student_grade)
+Student_grade int
 
-  values('Priyanshu','Teku',12),
+);
 
-  ('Anam','Bhaktapur',12),
+desc student;
 
-  ('Hari','Amannagar',12),
+insert into student (student_name,student_address,student_grade)
 
-  ('Sita','Dilibazar',11),
+values('Priyanshu','Teku',12),
 
-  ('Yam','America',11),
+('Anam','Bhaktapur',12),
 
-  ('Jerry','America',11)
+('Hari','Amannagar',12),
 
-  ;
+('Sita','Dilibazar',11),
 
-7.select * from student;
+('Yam','America',11),
 
-8.select student_id,student_name from student;
+('Jerry','America',11)
 
-9.select * from student where student_name like 'a%';
+;
+select student_id, student_name from student;
 
-10.select * from student where student_name like '%y';
+select * from student where student_name like "a%";
 
-11.select * from student where student_grade=12;
+select * from student where student_name like "%y";
 
-12.select * from student
-   where student_grade=12 and student_address='Kathmandu';
+select * from student where student_grade=12;
 
-13.select * from student order by student_name asc;
+select * from student where student_grade=12 and student_address like "kathmandu";
 
-14.select * from student order by student_name desc;
+select * from student order by student_name asc;
+
+select * from student order by student_name desc;
+
+alter table student
+
+add column student_section varchar(100),
+
+modify column student_address varchar(200);
+
+desc student;
