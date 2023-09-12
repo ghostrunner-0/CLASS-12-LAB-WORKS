@@ -1,6 +1,6 @@
 # The following codes are to be executed for the practical session-2
 
-! Question number j,l,k,m not done.
+## ! Question number j,l,k,m not done
 
 1.show databases;
 
