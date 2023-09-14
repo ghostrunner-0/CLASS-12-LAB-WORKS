@@ -1,20 +1,14 @@
 # The following codes are to be executed for the practical session-2
 
-## ! Question number j,l,k,m not done
+show databases;
 
-1.show databases;
+create database student;
 
-2.drop database student;
+show databases;
 
-3.show databases;
+use student;
 
-4.create database student;
-
-5.show databases;
-
-6.use student;
-
-7.create table student(
+create table student(
 
 Student_id int not null primary key auto_increment,
 
@@ -26,9 +20,9 @@ Student_grade int
 
 );
 
-8.desc student;
+desc student;
 
-9.insert into student (student_name,student_address,student_grade)
+insert into student (student_name,student_address,student_grade)
 
 values('Priyanshu','Teku',12),
 
@@ -44,24 +38,32 @@ values('Priyanshu','Teku',12),
 
 ;
 
-10.select student_id, student_name from student;
+select student_id, student_name from student;
 
-11.select * from student where student_name like "a%";
+select * from student where student_name like "a%";
 
-12.select * from student where student_name like "%y";
+select * from student where student_name like "%y";
 
-13.select * from student where student_grade=12;
+select * from student where student_grade=12;
 
-14.select * from student where student_grade=12 and student_address like "kathmandu";
+select * from student where student_grade=12 and student_address like "kathmandu";
 
-15.select * from student order by student_name asc;
+update student set student_name="Ghostrunner" where student_id=1;
 
-16.select * from student order by student_name desc;
+select * from student;
 
-17.alter table student
+delete from student where student_id=3;
+
+select * from student;
+
+select * from student order by student_name asc;
+
+select * from student order by student_name desc;
+
+alter table student
 
 add column student_section varchar(100),
 
 modify column student_address varchar(200);
 
-18.desc student;
+desc student;
