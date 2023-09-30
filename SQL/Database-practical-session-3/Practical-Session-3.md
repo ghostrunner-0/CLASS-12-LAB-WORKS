@@ -1,3 +1,5 @@
+# The following codes are to be executed for this lab work.
+
 1.create database employees;
 
   show databases;
