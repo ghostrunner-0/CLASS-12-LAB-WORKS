@@ -25,5 +25,5 @@ DBMS: 1 question
 
 # Total Portion Covered:
 C Programming: 31 marks
-DBMS: 19 marks
 
+DBMS: 19 marks
