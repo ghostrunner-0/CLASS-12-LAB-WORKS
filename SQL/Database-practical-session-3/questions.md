@@ -30,7 +30,7 @@ l.Display the records of employees in sorted order. Use ‘order by field name a
 
 m.Alter the table with following fields.
 Add one more field employees_address ---varchar(100). [insert after name field]
-Change the size of field employees _position--200 [Use alter and modify command]
+Change the size of field employees_position--200 [Use alter and modify command]
 
 n.Find the maximum and minimum salary in database.
 
