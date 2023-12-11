@@ -1,0 +1,1 @@
+// 11.Write a program to insert a string “We are learning JS” via form object getElementById() method. Use paragraph with id.
