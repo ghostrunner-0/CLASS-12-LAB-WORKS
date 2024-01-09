@@ -34,4 +34,4 @@
 
 17.Write a PHP program to delete records of a student whose id is 3.[previous question]
 
-18.Write a PHP program to update a record of student whose id is 2.[Try same program with name/grade.  
+18.Write a PHP program to update a record of student whose id is 2.[Try same program with name/grade.]
