@@ -10,7 +10,7 @@
 
 ### If any code has an error then you may address an issue in the "ISSUES" tab or contact the file provider.
 
-### If you want to upload any codes by yourself then you may be a contributor or send me the code.
+### If you want to upload any codes by yourself then you may be a contributor or contact us and send us your code
  
 # HOW TO RUN CODES IF REQUIRED
 
